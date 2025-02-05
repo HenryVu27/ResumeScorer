@@ -1,0 +1,87 @@
+```json
+{
+  "full_name": "Henry Vu",
+  "contact_information": {
+    "email": "henry@gmail.edu",
+    "phone": "469-649-6967",
+    "linkedin": "linkedin.com/in/henry",
+    "github": "github.com/henry"
+  },
+  "employment_details": [
+    {
+      "position": "Teaching Assistant",
+      "organization": "University of Texas at Dallas",
+      "location": "Richardson, TX",
+      "duration": "Jan 2025 – Present",
+      "responsibilities": [
+        "Held weekly office hours, prepared seminar and exam materials, and graded coursework.",
+        "Helped students understand concepts in Algorithms and Data Structures."
+      ]
+    },
+    {
+      "position": "Research Assistant",
+      "organization": "Alberta Machine Intelligence Institute (Amii)",
+      "location": "Edmonton, AB",
+      "duration": "Apr. 2022 - May 2024",
+      "responsibilities": [
+        "Implemented algorithms for online optimization problems using the online primal-dual framework.",
+        "Analyzed competitive ratios where ML predictions are available, extending beyond traditional worst-case analysis.",
+        "Conducted a comprehensive survey on stochastic, adversarial, Markovian and restless multi-armed bandits.",
+        "Built simulations in Python to assess real-world performance of UCB, Exp3, Gittins Index, etc."
+      ]
+    }
+  ],
+  "personal_project": [
+    {
+      "name": "UManitoba Navigator",
+      "technologies": ["Python", "FastAPI", "React", "HTML/CSS", "Git"],
+      "date": "Feb 2024",
+      "description": [
+        "Mapped Manitoba with OpenStreetMap data, including tunnels and hidden pedestrian paths.",
+        "Designed backend API with FastAPI and used React Leaflet for interactive map.",
+        "Implemented Dijkstra’s algorithm for optimal route finding using geo-coordinates as graph vertices."
+      ]
+    },
+    {
+      "name": "Decode EEG using Multi-Modal Approach",
+      "technologies": ["Python", "MATLAB", "HuggingFace"],
+      "date": "Sep. 2023 - Dec. 2023",
+      "description": [
+        "Identified bad electrodes, cleaned, and transformed EEG data using ICA and Automagic in MATLAB.",
+        "Implemented RoBERTa for tokenization and embedding, resulting in significant F1-score improvements.",
+        "Developed a novel EEG extraction framework combining convolution and self-attention modules."
+      ]
+    },
+    {
+      "name": "HabiTrak Android Application",
+      "technologies": ["Java", "GoogleMapsAPI", "Firebase"],
+      "date": "Sep. 2022 - Dec. 2022",
+      "description": [
+        "Built a social media application in Android Studio for tracking and sharing user habits.",
+        "Integrated Google Maps Platform for real-time location tracking and interactive mapping.",
+        "Performed unit testing with JUnit achieving 100% class and method coverage."
+      ]
+    },
+    {
+      "name": "Tourist Neighborhood in Toronto",
+      "technologies": ["pandas", "NumPy", "scikit-learn", "FoursquareAPI"],
+      "date": "April. 2021 - May. 2021",
+      "description": [
+        "Conducted geospatial analysis on 103 neighborhoods using venue data from the Foursquare API and Wikipedia.",
+        "Engineered features with one-hot encoding to analyze 234 unique venue categories.",
+        "Applied K-Means clustering to segment neighborhoods into 4 clusters, optimized using Elbow method."
+      ]
+    }
+  ],
+  "technical_skills": {
+    "languages": ["Python", "Java", "Linux", "C++", "R", "SQL", "HTML/CSS", "JavaScript", "MATLAB", "LATEX"],
+    "frameworks_and_libraries": ["NumPy", "PyTorch", "TensorFlow", "HuggingFace", "React", "Node.js", "JUnit", "FastAPI"],
+    "developer_tools": ["Git", "Linux", "Docker", "MongoDB", "Android Studio", "R Studio", "VS Code", "Firebase"]
+  },
+  "certifications": [
+    "IBM Data Science Professional Certificate",
+    "IBM Machine Learning Certificate",
+    "Web Development"
+  ]
+}
+```
