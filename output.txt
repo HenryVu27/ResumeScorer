@@ -1,87 +1,119 @@
 ```json
 {
-  "full_name": "Henry Vu",
-  "contact_information": {
-    "email": "henry@gmail.edu",
-    "phone": "469-649-6967",
-    "linkedin": "linkedin.com/in/henry",
-    "github": "github.com/henry"
-  },
-  "employment_details": [
-    {
-      "position": "Teaching Assistant",
-      "organization": "University of Texas at Dallas",
-      "location": "Richardson, TX",
-      "duration": "Jan 2025 â€“ Present",
-      "responsibilities": [
-        "Held weekly office hours, prepared seminar and exam materials, and graded coursework.",
-        "Helped students understand concepts in Algorithms and Data Structures."
-      ]
+    "full_name": "Henry Vu",
+    "contact_information": {
+        "email": "henry@gmail.edu",
+        "phone": "469-649-6967",
+        "linkedin": "linkedin.com/in/henry",
+        "github": "github.com/henry"
     },
-    {
-      "position": "Research Assistant",
-      "organization": "Alberta Machine Intelligence Institute (Amii)",
-      "location": "Edmonton, AB",
-      "duration": "Apr. 2022 - May 2024",
-      "responsibilities": [
-        "Implemented algorithms for online optimization problems using the online primal-dual framework.",
-        "Analyzed competitive ratios where ML predictions are available, extending beyond traditional worst-case analysis.",
-        "Conducted a comprehensive survey on stochastic, adversarial, Markovian and restless multi-armed bandits.",
-        "Built simulations in Python to assess real-world performance of UCB, Exp3, Gittins Index, etc."
-      ]
-    }
-  ],
-  "personal_project": [
-    {
-      "name": "UManitoba Navigator",
-      "technologies": ["Python", "FastAPI", "React", "HTML/CSS", "Git"],
-      "date": "Feb 2024",
-      "description": [
-        "Mapped Manitoba with OpenStreetMap data, including tunnels and hidden pedestrian paths.",
-        "Designed backend API with FastAPI and used React Leaflet for interactive map.",
-        "Implemented Dijkstraâ€™s algorithm for optimal route finding using geo-coordinates as graph vertices."
-      ]
+    "employment_details": [
+        {
+            "position": "Teaching Assistant",
+            "organization": "University of Texas at Dallas",
+            "location": "Richardson, TX",
+            "start_date": "Jan 2025",
+            "end_date": "Present",
+            "responsibilities": [
+                "Held weekly office hours, prepared seminar and exam materials, and graded coursework.",
+                "Helped students understand concepts in Algorithms and Data Structures."
+            ]
+        },
+        {
+            "position": "Research Assistant",
+            "organization": "Alberta Machine Intelligence Institute (Amii)",
+            "location": "Edmonton, AB",
+            "start_date": "Apr. 2022",
+            "end_date": "May 2024",
+            "responsibilities": [
+                "Implemented algorithms for online optimization problems using the online primal-dual framework.",
+                "Analyzed competitive ratios where ML predictions are available, extending beyond traditional worst-case analysis.",
+                "Conducted a comprehensive survey on stochastic, adversarial, Markovian and restless multi-armed bandits.",
+                "Built simulations in Python to assess real-world performance of UCB, Exp3, Gittins Index, etc."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "University of Texas - Dallas",
+            "degree": "M.Sc. Computer Science - Intelligent Systems",
+            "location": "Richardson, TX",
+            "start_date": "Sep. 2024",
+            "end_date": "Expected Aug 2027",
+            "description": []
+        },
+        {
+            "school": "University of Alberta",
+            "degree": "B.Sc. Computing Science with Honors",
+            "location": "Edmonton, AB",
+            "start_date": "Sep. 2019",
+            "end_date": "May 2024",
+            "description": [
+                "GPA: 3.83/4.0, graduated Summa cum laude.",
+                "International Student Scholarship, Dean’s list 2020 - 2024.",
+                "Coursework: algorithms, database, probability theory, optimization theory, deep learning, RL, CV, NLP."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "UManitoba Navigator",
+            "technologies": ["Python", "FastAPI", "React", "HTML/CSS", "Git"],
+            "start_date": "Feb 2024",
+            "end_date": "",
+            "description": [
+                "Mapped Manitoba with OpenStreetMap data, including tunnels and hidden pedestrian paths.",
+                "Won first-time participant award at .devHacks.",
+                "Designed backend API with FastAPI and used React Leaflet for interactive map.",
+                "Implemented Dijkstra’s algorithm for optimal route finding using geo-coordinates as graph vertices."
+            ]
+        },
+        {
+            "name": "Decode EEG using Multi-Modal Approach",
+            "technologies": ["Python", "MATLAB", "HuggingFace"],
+            "start_date": "Sep. 2023",
+            "end_date": "Dec. 2023",
+            "description": [
+                "Identified bad electrodes, cleaned, and transformed EEG data using ICA and Automagic in MATLAB.",
+                "Implemented RoBERTa for tokenization and embedding, resulting in an increase of 274%, 78%, and 1.4% in F1-score compared to Gaussian, GloVe and BERT embeddings on a 10-label classification task.",
+                "Using PyTorch, developed a novel EEG extraction framework by combining a convolution and a self-attention module.",
+                "Achieved consistent increases in F1-score across all 4 embedding types."
+            ]
+        },
+        {
+            "name": "HabiTrak Android Application",
+            "technologies": ["Java", "GoogleMapsAPI", "Firebase"],
+            "start_date": "Sep. 2022",
+            "end_date": "Dec. 2022",
+            "description": [
+                "Built a social media application in Android Studio for tracking and sharing user habits.",
+                "Integrated Google Maps Platform to enable real-time location tracking and interactive mapping.",
+                "Used Google Firestore to manage user data.",
+                "Performed unit testing with JUnit (achieved 100% class and method coverage)."
+            ]
+        },
+        {
+            "name": "Tourist Neighborhood in Toronto",
+            "technologies": ["pandas", "NumPy", "scikit-learn", "FoursquareAPI"],
+            "start_date": "April. 2021",
+            "end_date": "May. 2021",
+            "description": [
+                "Conducted geospatial analysis on 103 neighborhoods using venue data from the Foursquare API and Wikipedia.",
+                "Engineered features with one-hot encoding to analyze 234 unique venue categories.",
+                "Applied K-Means clustering to segment neighborhoods into 4 clusters. K is optimized using Elbow method.",
+                "Visualized with Folium maps, identifying key zones: airport, dining, recreational and camping."
+            ]
+        }
+    ],
+    "technical_skills": {
+        "languages": ["Python", "Java", "Linux", "C++", "R", "SQL", "HTML/CSS", "JavaScript", "MATLAB", "LATEX"],
+        "frameworks_and_libraries": ["NumPy", "PyTorch", "TensorFlow", "HuggingFace", "React", "Node.js", "JUnit", "FastAPI"],
+        "developer_tools": ["Git", "Linux", "Docker", "MongoDB", "Android Studio", "R Studio", "VS Code", "Firebase"]
     },
-    {
-      "name": "Decode EEG using Multi-Modal Approach",
-      "technologies": ["Python", "MATLAB", "HuggingFace"],
-      "date": "Sep. 2023 - Dec. 2023",
-      "description": [
-        "Identified bad electrodes, cleaned, and transformed EEG data using ICA and Automagic in MATLAB.",
-        "Implemented RoBERTa for tokenization and embedding, resulting in significant F1-score improvements.",
-        "Developed a novel EEG extraction framework combining convolution and self-attention modules."
-      ]
-    },
-    {
-      "name": "HabiTrak Android Application",
-      "technologies": ["Java", "GoogleMapsAPI", "Firebase"],
-      "date": "Sep. 2022 - Dec. 2022",
-      "description": [
-        "Built a social media application in Android Studio for tracking and sharing user habits.",
-        "Integrated Google Maps Platform for real-time location tracking and interactive mapping.",
-        "Performed unit testing with JUnit achieving 100% class and method coverage."
-      ]
-    },
-    {
-      "name": "Tourist Neighborhood in Toronto",
-      "technologies": ["pandas", "NumPy", "scikit-learn", "FoursquareAPI"],
-      "date": "April. 2021 - May. 2021",
-      "description": [
-        "Conducted geospatial analysis on 103 neighborhoods using venue data from the Foursquare API and Wikipedia.",
-        "Engineered features with one-hot encoding to analyze 234 unique venue categories.",
-        "Applied K-Means clustering to segment neighborhoods into 4 clusters, optimized using Elbow method."
-      ]
-    }
-  ],
-  "technical_skills": {
-    "languages": ["Python", "Java", "Linux", "C++", "R", "SQL", "HTML/CSS", "JavaScript", "MATLAB", "LATEX"],
-    "frameworks_and_libraries": ["NumPy", "PyTorch", "TensorFlow", "HuggingFace", "React", "Node.js", "JUnit", "FastAPI"],
-    "developer_tools": ["Git", "Linux", "Docker", "MongoDB", "Android Studio", "R Studio", "VS Code", "Firebase"]
-  },
-  "certifications": [
-    "IBM Data Science Professional Certificate",
-    "IBM Machine Learning Certificate",
-    "Web Development"
-  ]
+    "certifications": [
+        "IBM Data Science Professional Certificate",
+        "IBM Machine Learning Certificate",
+        "Web Development"
+    ]
 }
 ```
