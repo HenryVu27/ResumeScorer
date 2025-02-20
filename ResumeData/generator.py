@@ -87,7 +87,7 @@ if __name__ == "__main__":
         writer = csv.writer(f)
         writer.writerow(["job_title", "resume_text", "score"])
         
-        for title in job_titles:
+        for title in job_titles:    
             for _ in range(RESUMES_PER_POSITION):
                 rating = random.randint(1, 10)
                 try:
